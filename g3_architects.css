@@ -152,6 +152,46 @@ main > section {
 .text-primary {
     color: #FF900E;
 }
+/* Features you will love & enjoy styles */
+.features-will-enjoy {
+    gap: 130px;
+}
+#features-border {
+    border-left: 7px solid #FF900E;
+    padding-left: 20px;
+}
+
+.feature-card {
+    padding: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.feature-title {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+#experience-badge {
+    padding: 45px 42px;
+
+    margin-left: -100px;
+    margin-top: -100px;
+}
+
+.experience-year {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.experience {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 1);
+}
 
 /* some facts styles */
 .facts-container {
