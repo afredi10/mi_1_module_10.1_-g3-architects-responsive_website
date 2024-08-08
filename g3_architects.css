@@ -193,6 +193,10 @@ main > section {
     color: rgba(255, 255, 255, 1);
 }
 
+.featured-architect img {
+    width: 100%;
+}
+
 /* some facts styles */
 .facts-container {
     display: grid;
@@ -253,7 +257,7 @@ main > section {
 
 /* small device responsive */
 @media screen and (max-width: 576px) {
-    .nav-bar, .nav-links, .teams {
+    .nav-bar, .nav-links, .teams, .features-will-enjoy {
         flex-direction: column;
     }
 
@@ -274,11 +278,16 @@ main > section {
     justify-items: center;
     gap: 35px;
 }
+
+#experience-badge {
+    margin-top: 20px;
+    margin-left: 125px;
+}
 }
 
 /* medium device responsive */
 @media screen and (min-width: 577px) and (max-width: 992px) {
-    .teams {
+    .teams, .features-will-enjoy {
         flex-direction: column;
     }
 
@@ -297,5 +306,10 @@ main > section {
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
         gap: 20px;
+    }
+
+    #experience-badge {
+        margin-top: 20px;
+        margin-left: 300px;
     }
 }
